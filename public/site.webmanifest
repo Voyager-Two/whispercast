@@ -1,0 +1,20 @@
+{
+  "name": "WhisperCast",
+  "short_name": "WhisperCast",
+  "theme_color": "#3a2323",
+  "background_color": "#3a2323",
+  "display": "standalone",
+  "description": "Indexing the knowledge of podcasts & videos with AI. Search, read, or watch! Search captions & find exact moments.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -47,13 +47,6 @@ const About = () => {
                     href="mailto:wc@emre.earth"
                   >
                     wc@emre.earth
-                  </a>{" "}
-                  or on Twitter {" "}
-                  <a
-                    className="text-secondary hover:underline active:no-underline"
-                    href="https://twitter.com/emre_earth"
-                  >
-                    @emre_earth
                   </a>
                   .
                 </div>

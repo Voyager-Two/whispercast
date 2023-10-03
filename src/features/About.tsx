@@ -15,7 +15,7 @@ const About = () => {
           <Card className="group m-0 py-2 px-4 bg-primary-card" css={{ h: "$auto" }} variant="flat">
             <Card.Body className="overflow-hidden whitespace-normal relative flex flex-row items-center w-full h-full">
               <Text
-                className="font-sexy !m-0 !p-0 text-primary tracking-normal leading-relaxed text-xl"
+                className="font-main !m-0 !p-0 text-primary tracking-normal leading-relaxed text-xl"
                 weight="normal"
               >
                 Podcasts and educational videos are a treasure trove of knowledge. However, much of

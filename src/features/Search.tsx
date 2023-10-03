@@ -70,7 +70,7 @@ const Search = ({ queryParam }: IComponentProps) => {
           className="flex flex-col items-center w-full mb-10 justify-center"
         >
           <Text
-            className="mt-0 mb-7 p-0 font-sexy text-secondary tracking-normal leading-tight whitespace-normal italic"
+            className="mt-0 mb-7 p-0 font-main text-secondary tracking-normal leading-tight whitespace-normal italic"
             size={23}
             weight="extrabold"
           >
@@ -127,7 +127,7 @@ const Search = ({ queryParam }: IComponentProps) => {
           <div className={`${apiLoading ? "opacity-50" : ""}`}>
             {cues && cues.length !== 0 && (
               <Text
-                className="block mt-6 mb-0 p-0 font-sexy text-secondary tracking-normal leading-tight whitespace-normal italic"
+                className="block mt-6 mb-0 p-0 font-main text-secondary tracking-normal leading-tight whitespace-normal italic"
                 size={17}
                 weight="normal"
               >
@@ -137,7 +137,7 @@ const Search = ({ queryParam }: IComponentProps) => {
             {cues && cues.length === 0 && (
               <div className="flex flex-col items-center inline-flex mt-0">
                 <Text
-                  className="block mt-8 mb-4 p-0 font-sexy text-secondary tracking-normal leading-tight whitespace-normal italic"
+                  className="block mt-8 mb-4 p-0 font-main text-secondary tracking-normal leading-tight whitespace-normal italic"
                   size={20}
                   weight="bold"
                 >
@@ -189,7 +189,7 @@ const Search = ({ queryParam }: IComponentProps) => {
                     >
                       <Col className="px-1 py-0">
                         <Text
-                          className="m-0 p-0 font-sexy font-normal text-black tracking-normal leading-tight text-left whitespace-normal"
+                          className="m-0 p-0 font-main font-normal text-black tracking-normal leading-tight text-left whitespace-normal"
                           size={20}
                         >
                           {cue?.caption}

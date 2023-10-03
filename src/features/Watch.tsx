@@ -147,14 +147,14 @@ const Watch = ({ showId, episodeId, startTime }: IWatchProps) => {
               h1
               weight="extrabold"
               // css={{ color: "$purple700" }}
-              className="mb-1 font-sexy text-xl md:text-3xl font-extrabold text-highlight text-center tracking-normal leading-normal whitespace-normal lg:truncate"
+              className="mb-1 font-main text-xl md:text-3xl font-extrabold text-highlight text-center tracking-normal leading-normal whitespace-normal lg:truncate"
               title={episode?.title}
             >
               {loading && "Loading..."}
               {!loading && episode?.title}
             </Text>
             <Text
-              className="space-x-4 flex flex-row justify-center font-sexy text-md md:text-xl text-secondary tracking-normal leading-tight text-center whitespace-normal"
+              className="space-x-4 flex flex-row justify-center font-main text-md md:text-xl text-secondary tracking-normal leading-tight text-center whitespace-normal"
               weight="normal"
             >
               <span>
@@ -166,7 +166,7 @@ const Watch = ({ showId, episodeId, startTime }: IWatchProps) => {
               <Link href={`/captions?show=${showId}&episode=${episodeId}`} passHref>
                 <NextUILink animated>
                   <Text
-                    className="font-sexy text-secondary tracking-normal leading-normal whitespace-normal items-center flex hover:text-highlight hover:animate-scale-up active:animate-scale-down"
+                    className="font-main text-secondary tracking-normal leading-normal whitespace-normal items-center flex hover:text-highlight hover:animate-scale-up active:animate-scale-down"
                     size={16}
                     weight="extrabold"
                   >

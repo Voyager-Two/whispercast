@@ -59,7 +59,7 @@ export default function NavBar() {
               <Navbar.Link className="group flex items-center py-9 !px-5 ch:text-secondary ch:text-lg ch:sm:text-3xl ch:hover:text-highlight hover:opacity-100 hover:animate-scale-up active:opacity-50 active:animate-scale-down">
                 <Text
                   h1
-                  className="flex items-center !m-0 !p-0 italic font-sexy"
+                  className="flex items-center !m-0 !p-0 italic font-main"
                   weight="extrabold"
                 >
                   WhisperCast

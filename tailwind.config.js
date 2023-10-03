@@ -24,7 +24,7 @@ module.exports = {
         // #ff6f5a
       },
       fontFamily: {
-        'sexy': ["source-serif-pro", "Georgia", "Cambria", "Times New Roman", "Times", "serif"],
+        'main': ["source-serif-pro", "Georgia", "Cambria", "Times New Roman", "Times", "serif"],
       },
       animation: {
         'scale-up': 'scale_up 1s linear infinite',

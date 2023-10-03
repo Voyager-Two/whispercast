@@ -16,7 +16,7 @@ const Feedback = () => {
         >
           <Card className="group m-0 py-2 px-4 bg-primary-card" css={{ h: "$auto" }} variant="flat">
             <Card.Body className="overflow-hidden whitespace-normal relative flex flex-col md:flex-row space-y-4 md:space-x-8 items-center w-full h-full">
-              <Text className="font-sexy !m-0 !p-0 text-lg text-primary tracking-normal" weight="normal">
+              <Text className="font-main !m-0 !p-0 text-lg text-primary tracking-normal" weight="normal">
                 User feedback is very important to me. If you have any comments,
                 questions, or suggestions, please let me know! You can email {" "}
                 <a

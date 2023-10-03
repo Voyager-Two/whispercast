@@ -48,13 +48,13 @@ const ViewCaptions = ({ showId, episodeId, pageIndex }: IComponentProps) => {
               h1
               weight="extrabold"
               // css={{ color: "$purple700" }}
-              className="mt-6 mb-3 font-sexy font-extrabold text-xl md:text-2xl text-highlight text-center tracking-normal leading-normal whitespace-normal lg:truncate"
+              className="mt-6 mb-3 font-main font-extrabold text-xl md:text-2xl text-highlight text-center tracking-normal leading-normal whitespace-normal lg:truncate"
               title={episodeData?.title}
             >
               {episodeData?.title ?? "Loading..."}
             </Text>
             <Text
-              className="mb-6 font-sexy text-md md:text-lg text-secondary tracking-normal text-center leading-tight whitespace-normal"
+              className="mb-6 font-main text-md md:text-lg text-secondary tracking-normal text-center leading-tight whitespace-normal"
               weight="normal"
             >
               <span>
@@ -114,7 +114,7 @@ const ViewCaptions = ({ showId, episodeId, pageIndex }: IComponentProps) => {
                     <a className="relative group">
                       <Text
                         className={clsx(
-                          "font-sexy font-bold text-[17px] sm:text-[1.29rem] text-left m-0 p-0 text-[#000000] tracking-normal leading-snug whitespace-normal",
+                          "font-main font-bold text-[17px] sm:text-[1.29rem] text-left m-0 p-0 text-[#000000] tracking-normal leading-snug whitespace-normal",
                           "cursor-pointer active:opacity-60 active:animate-scale-down"
                         )}
                       >

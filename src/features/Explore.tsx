@@ -34,7 +34,7 @@ const Explore = ({ pageInput }: IComponentProps) => {
         {router.pathname === "/" && (
           <Grid xs={10} md={8} lg={5} className="flex justify-center w-full">
             <Text
-              className="rounded-2xl my-1 p-0 italic font-sexy text-secondary group-hover:text-highlight tracking-normal leading-relaxed text-center whitespace-normal"
+              className="rounded-2xl my-1 p-0 italic font-main text-secondary group-hover:text-highlight tracking-normal leading-relaxed text-center whitespace-normal"
               size={25}
               weight="extrabold"
             >
@@ -46,7 +46,7 @@ const Explore = ({ pageInput }: IComponentProps) => {
           <div className="flex flex-col w-[90%] items-center inline-flex mt-1 space-y-6">
             {/*{!episodes && (*/}
             {/*  <Text*/}
-            {/*    className="rounded-2xl my-1 p-0 italic font-sexy text-highlight group-hover:text-highlight tracking-normal leading-relaxed text-center whitespace-normal"*/}
+            {/*    className="rounded-2xl my-1 p-0 italic font-main text-highlight group-hover:text-highlight tracking-normal leading-relaxed text-center whitespace-normal"*/}
             {/*    size={22}*/}
             {/*    weight="extrabold"*/}
             {/*  >*/}

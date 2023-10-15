@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://whispercast.io
+Host: https://whispercast.emre.earth
 
 # Sitemaps
-Sitemap: https://whispercast.io/sitemap.xml
+Sitemap: https://whispercast.emre.earth/sitemap.xml

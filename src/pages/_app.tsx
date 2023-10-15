@@ -36,18 +36,18 @@ function MyApp(props: { Component: any; pageProps: any }) {
           <meta property="og:description" content={siteDesc} />
           <meta name="twitter:description" content={siteDesc} />
           <meta property="og:image" content="/images/og-image-8.png" />
-          <meta name="twitter:image" content="https://whispercast.io/images/og-image-8.png" />
+          <meta name="twitter:image" content="https://whispercast.emre.earth/images/og-image-8.png" />
           <meta property="og:image:width" content="620" />
           <meta property="og:image:height" content="335" />
           <meta property="og:site_name" content="WhisperCast" />
           <meta property="og:title" content="WhisperCast" />
           <meta name="twitter:title" content="WhisperCast" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content={`https://whispercast.io${router.pathname}`} />
-          <meta property="twitter:url" content={`https://whispercast.io${router.pathname}`} />
+          <meta property="og:url" content={`https://whispercast.emre.earth${router.pathname}`} />
+          <meta property="twitter:url" content={`https://whispercast.emre.earth${router.pathname}`} />
 
           <meta name="twitter:card" content="summary_large_image" />
-          <meta property="twitter:domain" content="whispercast.io" />
+          <meta property="twitter:domain" content="whispercast.emre.earth" />
 
           <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />

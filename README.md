@@ -1,6 +1,6 @@
 ## Project
 
-https://whispercast.io
+https://whispercast.emre.earth
 
 ---
 

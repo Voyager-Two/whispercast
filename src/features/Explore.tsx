@@ -21,7 +21,7 @@ const Explore = ({ pageInput }: IComponentProps) => {
 
   const { data: showApiData } = useSWR(`/api/shows?id=1`);
   const { data: episodeApiData, error } = useSWR(
-    `https://whispercast.io/cf-api/explore?page=${pageInput}`
+    `https://whispercast.emre.earth/cf-api/explore?page=${pageInput}`
   );
 
   const show = showApiData?.data;

@@ -2,19 +2,19 @@
 @tailwind utilities;
 
 :root {
-  --background-color: #3c3636;
+  --background-color: #434343;
 
-  --primary-color: #fff7eb;
-  --highlight-color: #ffaf40;
+  --primary-color: #ececec;
+  --highlight-color: #ef7a4f;
   /*--secondary-color: #ffa989;*/
-  --secondary-color: #fff2e9;
+  --secondary-color: #f3f3f3;
   --tertiary-color: #ba5a5a;
   --long-text-color: #ffdadb;
   --muted-secondary-color: #eac6b8;
   --white-color: #faede8;
 
-  --primary-card-color: #392b2c;
-  --primary-border-color: #a95b43b8;
+  --primary-card-color: #242424;
+  --primary-border-color: rgba(35, 35, 35, 0.72);
   /*--primary-card-color: #2c1819;*/
   /*#e3cfc7;*/
 }
@@ -54,7 +54,7 @@ html {
   /*background: #2c1819c4;*/
 }
 .nextui-input-wrapper {
-  background: #1c1010ad;
+  background: rgba(26, 26, 26, 0.68);
 }
 /*.nextui-navbar-link:first-child {*/
 /*  color: var(--primary-color);*/

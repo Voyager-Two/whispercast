@@ -9,7 +9,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next-sitemap",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "next lint"
   },

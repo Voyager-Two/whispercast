@@ -2,6 +2,6 @@
   "github": {
     "silent": true
   },
-  "buildCommand": "yarn build && yarn postbuild",
+  "buildCommand": "yarn build",
   "ignoreCommand": "git diff --quiet HEAD^ HEAD ./"
 }
